@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Desktop1</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Spectral+SC:wght@700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header class="mainheader">
+    <div class="container">
+        <div class="logo">
+            <a>
+                <img src="images/logo.png" alt="Anne Sweet">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#articles">Статьи</a>
+                </li>
+                <li>
+                    <a href="#about">Обо мне</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Портфолио</a>
+                </li>
+                <li>
+                    <a href="#contacts">Написать мне</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <article class="articles" id="articles">
+            <h2>Все статьи</h2>
+            <label for="theme" hidden>Тема</label>
+            <select name="theme" id="theme" class="border-round">
+                <option value="" selected disabled hidden>Выбрать тему</option>
+                <option value="1">Путешествия</option>
+                <option value="2">Город</option>
+                <option value="3">Книги</option>
+                <option value="4">Фотографии</option>
+                <option value="5">Рецепты</option>
+                <option value="0">Все статьи</option>
+            </select>
+            <div class="clearfix"></div>
+            <ul class="article-list">
+                <li class="article-item small-img hov border-round" data-category="1">
+                    <a href="desktop2.html">
+                        <div class="border-round article-img">
+                            <img src="images/art1.png" alt="art1">
+                        </div>
+                        <h3>Путешествие в Берлин в августе</h3>
+                        <p>Летний месяц я провела в столице Германии вместе с друзьями. </p>
+                        <div class="meta">
+                            <p class="tags">Теги: путешествия</p>
+                            <p class="date">29.09.2020</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="article-item  small-img hov border-round" data-category="2">
+                    <a href="desktop2.html">
+                        <div class="border-round article-img">
+                            <img src="images/art2.png" alt="art1">
+                        </div>
+                        <h3>Где выпить колдбрю в Москве</h3>
+                        <p>Собрала для вас список любимых кофеен,ок.</p>
+                        <div class="meta">
+                            <p class="tags">Теги: город</p>
+                            <p class="date">24.07.2020</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="article-item  small-img hov border-round" data-category="3">
+                    <a href="desktop2.html">
+                        <div class="border-round article-img">
+                            <img src="images/art3.png" alt="art1">
+                        </div>
+                        <h3>Прочитано: книжные рекомендации</h3>
+                        <p>Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</p>
+                        <div class="meta">
+                            <p class="tags">Теги: книги</p>
+                            <p class="date">15.07.2020</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="article-item  big-img hov border-round" data-category="4">
+                    <a href="desktop2.html">
+                        <div class="border-round article-img">
+                            <img src="images/art4.png" alt="art1">
+                        </div>
+                        <h3>Снимки на плёнку</h3>
+                        <p>Поделилась с вами весенними фотографиями, и секретами удачных снимков.</p>
+                        <div class="meta">
+                            <p class="tags">Теги: фотографии</p>
+                            <p class="date">15.07.2020</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="article-item  big-img hov border-round" data-category="5">
+                    <a href="desktop2.html">
+                        <div class="border-round article-img">
+                            <img src="images/art5.png" alt="art1">
+                        </div>
+                        <h3>Домашний чизкейк </h3>
+                        <p>Что может быть лучше чизкейка с сезонными ягодами?
+                            Только домашний чизкейк!</p>
+                        <div class="meta">
+                            <p class="tags">Теги: рецепты</p>
+                            <p class="date">15.07.2020</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <button class="article-btn border-round btn hov">ПОКАЗАТЬ ЕЩЕ</button>
+        </article>
+        <article class="about" id="about">
+            <h2>Обо мне</h2>
+            <div class="flex-wrap">
+                <div class="foto">
+                    <img src="images/portrait.png" alt="этоя">
+                </div>
+                <div class="about-content">
+                    <div class="about-descript">
+                        <p>Всем привет! Меня зовут Аня, и это мой личный блог.
+                            Здесь ты найдёшь рассказы о моих путешествиях, снимки
+                            на плёнку, рецепты, обзоры на книги. В общем, тексты о том,
+                            что мне инетресно.</p>
+                        <p>Я работаю копирайтером, поэтому мой блоге — это ещё и моё
+                            портфолио. Ниже размещены несколько моих лучших
+                            рабочих текстов. Буду рада новым сотрудничествам!  </p>
+                        <p>Если вы хотите написать мне — это можно сделать в соцсетях
+                            или через форму. Всегда приятно услышать обратную связь
+                            от читателей и познакомиться поближе.</p>
+                        <p>Приятного чтения!</p>
+                    </div>
+                    <cite>Я верю, что каждый раз пробуя новое,
+                        выходящее за зону моего комфорта,
+                        я действительно узнаю настояющую
+                        себя. </cite>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </article>
+        <article class="portfolio" id="portfolio">
+            <h2>Портфолио</h2>
+            <ul class="work-list">
+                <li class="work-item border-round hov">
+                    <a href="#">
+                        <img src="images/work1.png" alt="work1">
+                        <p class="work-place">Блог HTML Academy</p>
+                        <h3 class="work-name">«Как учиться продуктивно»</h3>
+                        <p class="work-discl">Про основные методы обучения,
+                            которые помогут быстро и надолго
+                            запомнить информацию.</p>
+                    </a>
+                </li>
+                <li class="work-item border-round hov">
+                    <a href="#">
+                        <img src="images/work2.png" alt="work2">
+                        <p class="work-place">Журнал «LNK»</p>
+                        <h3 class="work-name">«Зачем поцели нужны человеку?
+                            И какие они бывают»</h3>
+                        <p class="work-discl">Поцелуи — повсеместная ежедневная
+                            практика. Но зачем люди целуются?
+                            Какие смысли вкладывают в этот ритуал?
+                            И где корни этой практики?</p></a>
+                </li>
+                <li class="work-item border-round hov">
+                    <a href="#">
+                        <img src="images/work3.png" alt="work3">
+                        <p class="work-place">Журнал «Т — Л»</p>
+                        <h3 class="work-name">«Советы по эффективной
+                            удалённой работе»</h3>
+                        <p class="work-discl">Поделилась лайфхаками, которые помогают
+                            мне работать продуктивно из дома. </p></a>
+                </li>
+            </ul>
+            <button class="work-btn border-round btn hov">Показать еще</button>
+        </article>
+        <article class="contacts" id="contacts">
+            <h2>Написать мне</h2>
+            <form action="#">
+                <label for="name">Ваше имя
+                    <input type="text" name="name" id="name"
+                           placeholder="Иван Иванов"
+                           class="border-round" required>
+                </label>
+                <label for="mail">Еmail
+                    <input type="email" name="name" id="mail"
+                           placeholder="google@gmail.com"
+                           class="border-round" required>
+                </label>
+                <label for="mssg">Сообщение
+                    <textarea name="mssg" id="mssg"
+                              class="border-round"
+                              placeholder="Наипшите сообщение" minlength="10" maxlength="200"></textarea>
+                </label>
+                <input type="submit" value="ОТПРАВИТЬ" class="btn border-round hov">
+            </form>
+        </article>
+    </div>
+</main>
+<footer>
+    <ul class="social-list">
+        <li class="social-item">
+            <a href="#">ВК</a>
+        </li>
+        <li class="social-item">
+            <a href="#">Телеграм</a>
+        </li>
+        <li class="social-item">
+            <a href="#">Инстаграм</a>
+        </li>
+        <li class="social-item">
+            <a href="#">Твиттер</a>
+        </li>
+    </ul>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+

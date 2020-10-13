@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Desktop2</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Spectral+SC:wght@700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <a href="/desktop1.html">
+                <img src="images/logo.png" alt="Anne Sweet">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="desktop1.html#articles">Статьи</a>
+                </li>
+                <li>
+                    <a href="desktop1.html#about">Обо мне</a>
+                </li>
+                <li>
+                    <a href="desktop1.html#portfolio">Портфолио</a>
+                </li>
+                <li>
+                    <a href="desktop1.html#contacts">Написать мне</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <article class="post">
+            <h2>Как себя мотивировать</h2>
+            <div class="meta">
+                <p class="tags">Теги: путешествия, друзья</p>
+                <p class="date">29.09.2020</p>
+            </div>
+            <p>Расскажу о биопсихологической теории личности Джеффри Грея, которая помогла мне разобраться в работе
+                мотивационных стимулов. Узнала я о ней из книги «Воля и самоконтроль. Как гены и мозг мешают нам
+                бороться с соблазнами» Ирины Якутенко.</p>
+            <p>Согласно этой теории, человеческое поведение контролируют две системы: BAS (Behavior Activation System) и
+                BIS (Behavior Inhibition System), каждая из них обусловлена генетически. Грей использовал её для
+                понимания того, как вознаграждение или наказание связаны с беспокойством и импульсивностью. Самое
+                интересное, что активность этих систем у людей различна. Зная, какая из них доминирует, можно понять,
+                какие стимулы использовать для эффективной мотивации.</p>
+            <div class="post-img">
+                <img src="images/bg3.png" alt="картинка к статье">
+                <span class="post-img-alt">Моё поведение регулируется больше BAS, поэтому при планировании целей я всегда использую позитивный стимул.</span>
+            </div>
+            <p>BAS (Behavior Activation System) работает на ощущение позитивных эмоций. Мотивация людей, чье поведение в
+                основном определяется этой системой, направлена на получение вознаграждения. Они стремятся получить
+                одобрение и награду
+                за свои действия. Такие люди более мотивированы в учебе и развитии разных навыков. Однако носители
+                активной BAS склонны к импульсивности и желанию немедленного вознаграждения, что может мешать
+                долгосрочной работе.
+                BIS (Behavior Inhibition System) ответственна за избегающее поведение. Люди с этой активной системой
+                мотивируются стремлением избежать проблем. Они более чувствительны к наказанию и новому опыту, а также
+                стремятся избежать ситуаций, когда чувствуют, что могут потерпеть неудачу.</p>
+            <p>Определив, к какому типу относится поведение, вы узнаете, какие стимулы использовать для достижения
+                поставленной цели. Например, я решила выучить английский — само изучение не является целью, поэтому
+                нужно правильно её сформулировать. Если моё поведение регулируется BAS, мне нужно выбрать своей конечной
+                целью какую-то
+                награду: например, если я выучу английский, то смогу смотреть фильмы в оригинале. Если же я склонна к
+                BIS поведению, целью нужно выбрать избежание проблем: если я заговорю на английском, то не потеряюсь в
+                новой стране. И это можно использовать в различных сферах жизни.</p>
+            <div class="post-social">
+                <div class="likes">
+                    <a href="#">16</a>
+                </div>
+                <ul class="social-networks-list">
+                    <li class="social-networks-item tw">
+                        <a href="#"></a>
+                    </li>
+                    <li class="social-networks-item fb">
+                        <a href="#"></a>
+                    </li>
+                    <li class="social-networks-item vk">
+                        <a href="#"></a>
+                    </li>
+                </ul>
+            </div>
+            <a href="desktop1.html" class="back">Ко всем статьям</a>
+        </article>
+        <article class="comments">
+            <ul class="comments-list border-round">
+                <li class="comments-item">
+                    <img src="images/user1.png" alt="пользователь" class="userpick border-round">
+                    <p class="username">Иван Петров</p>
+                    <p class="user-text">Отличная статья! Спасибо.</p>
+                </li>
+                <li class="comments-item">
+                    <img src="images/user2.png" alt="пользователь" class="userpick border-round">
+                    <p class="username">Ксения Ксения</p>
+                    <p class="user-text">Отличный текст, добавила в закладки.</p>
+                </li>
+                <li class="comments-item">
+                    <img src="images/user3.png" alt="пользователь" class="userpick border-round">
+                    <p class="username">Иван Иванов</p>
+                    <p class="user-text">Основательный материал! Можешь посоветовать какие-то книги на эту тему?</p>
+                </li>
+            </ul>
+            <form action="#" id="commentsform" name="commentsform">
+                <h3>Оставить комментарий</h3>
+                <label for="username" class="hidden">Имя</label>
+                <input type="text" name="usrename" id="username" placeholder="Имя" required>
+                <label for="email"  class="hidden">email</label>
+                <input type="text" name="email" id="email" placeholder="Почта" required>
+                <label for="mssg"  class="hidden">Написать комментарий</label>
+                <textarea name="mssg" id="mssg"
+                          placeholder="Написать комментарий..."
+                          class="border-round"
+                          minlength="10"
+                          maxlength="200"
+                ></textarea>
+                <input type="submit" value="Отправить" class="border-round btn hov">
+                <div class="clearfix"></div>
+            </form>
+        </article>
+    </div>
+</main>
+<footer>
+    <ul class="social-list">
+        <li class="social-item">
+            <a href="#">ВК</a>
+        </li>
+        <li class="social-item">
+            <a href="#">Телеграм</a>
+        </li>
+        <li class="social-item">
+            <a href="#">Инстаграм</a>
+        </li>
+        <li class="social-item">
+            <a href="#">Твиттер</a>
+        </li>
+    </ul>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
