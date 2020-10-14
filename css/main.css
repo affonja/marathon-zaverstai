@@ -164,12 +164,13 @@ article {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0;
-    flex-grow: 1;
+    display: flex;
 }
 
 .article-item a {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 
 .article-item .article-img {
@@ -308,6 +309,7 @@ width: 590px;margin-right: 17px;}
     border-left: 3px solid #D7D1C9;
     padding: 29px 15px 31px 21px;
     margin: auto;
+    margin-bottom: 4px;
 }
 
 /*portfolio*/
@@ -567,6 +569,7 @@ article a.back {
     margin-top: 12px;
     position: relative;
     letter-spacing: 2px;
+    border-bottom: 3px solid transparent;
 }
 article a.back:hover{
     border-bottom: 3px solid #2E2F22;
